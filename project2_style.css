@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 50px; */
+
+
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 8px 13px;
+    font-size: 17px;
+    border-radius: 38px;
+    letter-spacing: -1px;
+    margin-left: 5px;
+
+}
+
+#intro{
+    height: 45%;
+    width: 100%;
+    /* background-color: rgb(244, 158, 0); */
+    
+}
+#intro h1{
+    font-size: 100px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding: 55px 60px; */
+    margin-top: px;
+    letter-spacing: -3px;
+    line-height: 90px;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+#place{
+    /* margin-top: 40px; */
+    /* margin-bottom: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3{
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+#place h4{
+    font-size: 18px;
+    font-weight: 550;
+    padding: 0px 40px;
+}
+#img1{
+    /* margin-top: 0%; */
+    height: 87%;
+    width: 100%;
+    /* background-image: url(https://plus.unsplash.com/premium_photo-1707932500366-c0b1951ed1b8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    object-fit: cover;
+    background-color: orange;
+    background-size: cover;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    /* background-color: rgb(255, 51, 0); */
+    object-position: bottom ;
+    display: block;
+}
+#about {
+    height: 45%;
+    width: 100%;
+    /* background-color: rgb(218, 174, 88); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 30px; */
+    padding: 60px;
+}
+#about h2{
+    /* background-color: red; */
+    width: 60%;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: -2px;
+}
+#aboutpart2{
+    width: 35%;
+    height: 100%;
+    /* background-color: green; */
+    /* font-weight: 940; */
+    border-left: 2px solid black;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#aboutpart2 h3{
+    font-size: 18px;
+    font-weight: 550;
+}
+#icon i{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+#work{
+    height: 55%;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+#work1{
+    /* background-color: blue; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    border-right: 2px solid black;
+}
+#work1 > h3{
+    font-size: 18px;
+    font-weight: 550;
+    
+}
+#work1> i{
+    font-size: 18px;
+    font-weight: 550;
+    padding-right: 60px;
+}
+#work2{
+    /* background-color: red; */
+    width: 70%;
+    height: 100%;
+    padding-left: 35px;
+}
+.element > h4{
+    font-size: 29px;
+    font-weight: 550;
+    padding-bottom: 28px;
+}
+.element >p{
+    color: rgb(85, 88, 88);
+    font-size: 15px;
+    font-weight: 520;
+}
+
+.work2part1{
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 33px;
+    border-bottom: 2px solid black;
+}
+.work2part2{
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 33px;
+}
+
+.work2part1 .element:nth-child(1){
+    width: 40%;
+    height: 100%;
+    
+}
+.work2part2 .element:nth-child(1){
+    width: 40%;
+    height: 100%;
+    
+}
+.work2part1 .element:nth-child(2){
+    width: 52%;
+    height: 100%;
+    border-left: 2px solid black;
+    padding-left: 50px;
+}
+.work2part2 .element:nth-child(2){
+    border-left: 2px solid black;
+    width: 52%;
+    height: 100%;
+    padding-left: 50px;
+}
+#next{
+    height: 30%;
+}

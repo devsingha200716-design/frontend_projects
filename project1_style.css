@@ -1,0 +1,176 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#bg{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+#nav{
+    height: 100px;
+    width: 100%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    
+}
+#navpart1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+#nav h3{
+    font-size: 15px;
+    font-weight: 500;
+    border: 1.5px solid #000;
+    border-radius: 1000px;
+    padding: 3px 10px;
+    
+    
+}
+#nav i{
+    font-size: 15px;
+    font-weight: 500;
+    border: 1.5px solid #000;
+    border-radius: 1000px;
+    padding: 1px 6px;
+    
+
+}
+#nav h1{
+    font-size: 23x;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    /* text-align: center;
+    align-items: center; */
+
+}
+#nav button{
+    padding: 3px 10px;
+    border: 1.5px solid #000;
+    border-radius: 1000px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#btn1{
+    background-color: white;
+}
+#btn2{
+    border: none;
+    background-color: orange;
+}
+#bg >h1{
+    font-size: 170px;
+    text-transform: uppercase;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 420px;
+    width: 350px;
+    /* object-fit: cover; */
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btm_left{
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+/* 
+
+
+#btm_left{
+
+    height: 100px;
+    width: 100px;
+
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px 10px;
+    margin: 10px;
+
+    gap: 10px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    line-height: 10px;
+
+    border: 2px solid #000;
+    border-radius: 10px;
+
+
+
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between / center / flex-end;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+    
+    
+    
+    
+    text-transform: uppercase;
+    text-align: center;
+    rotate: -30deg;
+    
+
+    color: red;
+    background-color: white;
+    background-image: url();
+
+    object-fit: cover;
+    object-position: top;
+    background-size: cover;
+
+
+
+
+} */
