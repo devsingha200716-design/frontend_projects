@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            overflow: hidden;
+            position: relative;
+        }
+        #div1{
+            position: absolute;
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) .1s;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <script src="4mouse.js"></script>
+</body>
+</html>
