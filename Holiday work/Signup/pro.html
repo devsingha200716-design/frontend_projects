@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    html,body{
+    height:100%;
+    width:100%;
+    }
+        #hide1,#hide2,#hide3,#hide4,#hide5{
+            display:none;
+        }
+         #hide12,#hide22,#hide32,#hide42,#hide52{
+            display:none;
+        }
+         #hide13,#hide23,#hide33,#hide43,#hide53{
+            display:none;
+        }
+         #hide14,#hide24,#hide34,#hide44,#hide54{
+            display:none;
+        }
+        #btn1{
+            background-color:lightblue;
+        }
+        #btn1:hover{
+        color:white;
+            background-color:blue;
+        }
+        small{
+            color:red;
+            font-size: 12px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <form autocomplete ="off" novalidate>
+            <h2>Sign up</h2>
+            <input id="name" type ="text" placeholder ="Name">
+            <div id="hide1">
+                <br>
+                <small>Full name is required</small>
+            </div>
+            <div id="hide12">
+                <br>
+                <small>Full name must be 3-50 characters</small>
+            </div>
+            <div id="hide13">
+                <br>
+                <small>Full name can contain only letters and spaces</small>
+            </div>
+            <br><br>
+            <input  id="username" type ="text" placeholder="Username">
+            <div id="hide2">
+                <br>
+                <small>Username is required</small>
+            </div>
+            <div id="hide22">
+                <br>
+                <small>Username must be 3–20 characters</small>
+            </div>
+            <div id="hide23">
+                <br>
+                <small>Username cannot start with a number</small>
+            </div>
+            <div id="hide24">
+                <br>
+                <small>Username can contain only letters, numbers, and underscores</small>
+            </div>
+            <br><br>
+            <input autocomplete="off" id="email" type ="email" placeholder="E-mail">
+            <div id="hide3">
+                <br>
+                <small>Email is required</small>
+            </div>
+            <div id="hide32">
+                <br>
+                <small>Email cannot contain spaces</small>
+            </div>
+            <div id="hide33">
+                <br>
+                <small>Please enter a valid email address</small>
+            </div>
+            <br><br>
+            <div>
+                <input id="password" type ="password" placeholder="Password">
+                <button id="eye1" type="button">👁️</button>
+                <div id="hide4">
+                    <br>
+                    <small>Password is required</small>
+                </div>
+                <div id="hide42">
+                    <br>
+                    <small>Password must be at least 8 characters</small>
+                </div>
+                <div id="hide43">
+                    <br>
+                    <small>password cannot contain spaces</small>
+                </div>
+                <div id="hide44">
+                    <br>
+                    <small>Password must include an uppercase letter, a lowercase letter, a number, and a special character</small>
+                </div>
+            </div>
+            <br><br>
+            <div>
+            <input  id="Cpassword" type ="password" placeholder="Confirm password">
+            <button id="eye2" type="button">👁️</button>
+            <div id="hide5">
+                <br>
+                <small>Please confirm your password</small>
+            </div>
+            <div id ="hide52">
+                <br>
+                <small>Passwords do not match</small>
+            </div>
+            </div>
+            <br><br>
+            <button id="btn1" type="submit">Create account ></button>
+        </form>
+    </div>
+    
+
+    <script src="pro.js"></script>
+</body>
+</html>
